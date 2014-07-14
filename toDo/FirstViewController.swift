@@ -43,7 +43,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell!{
         let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "Default")
         
-        cell.text = toDo.tasks[indexPath.row].name
+        cell.textLabel.text = toDo.tasks[indexPath.row].name
         cell.detailTextLabel.text = toDo.tasks[indexPath.row].desc
         
         return cell

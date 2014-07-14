@@ -405,6 +405,7 @@
 				6C71BD191947AFC400F5B2D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C71BD1A1947AFC400F5B2D3 /* Build configuration list for PBXNativeTarget "toDoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				6C71BD1C1947AFC400F5B2D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
